@@ -1,12 +1,11 @@
-import Home from "../app/components/home";
-import DefaultLayout from "../app/components/layout";
+import Home from "../app/components/05_pages/home/home.jsx";
 
 const routes = [
   {
     path: "/",
     exact: true,
-    component: Home,
-    layout: DefaultLayout,
+    component: Home
   }
 ];
+//module.exports = routes;
 export default routes;
